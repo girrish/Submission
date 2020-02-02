@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_design"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar_home" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Notes"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@drawable/toolbar_design"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:padding="15dp"
+        />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<android.support.design.widget.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height=""
+            />-->
+        
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recycler_view_home"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn_primary_design"
+        android:text="Upload Notes"
+        android:id="@+id/btn_go_to_upload_assignment"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+
+</LinearLayout>

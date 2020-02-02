@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1078443698003",
+    "firebase_url": "https://submission-9ca92.firebaseio.com",
+    "project_id": "submission-9ca92",
+    "storage_bucket": "submission-9ca92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078443698003:android:9b69db484c3507a9",
+        "android_client_info": {
+          "package_name": "com.imed.submission"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078443698003-s25sot9ge30s70fbkr16tpkpfnf6v2ms.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imed.submission",
+            "certificate_hash": "008ec4ca606312031b35402cef8b2ba8452bbe9e"
+          }
+        },
+        {
+          "client_id": "1078443698003-ug32hc1qhfqcpq6l656frkq9mm0pd2va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiWe0g83N5tcL666Veuz8BaNxbGNNdX6g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078443698003-ug32hc1qhfqcpq6l656frkq9mm0pd2va.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

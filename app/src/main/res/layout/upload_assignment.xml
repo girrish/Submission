@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_design"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Upload Notes"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/toolbar_design"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="bottom"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/btn_primary_design"
+                    android:text="Cancel"
+                    android:id="@+id/btn_cancel_upload_assignment"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="bottom"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/btn_primary_design"
+                    android:text="Upload"
+                    android:id="@+id/btn_upload_assignment"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course"
+                android:textColor="@android:color/white"
+                android:layout_margin="10dp"
+                android:textAppearance="?android:textAppearanceLarge"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+
+                android:inputType="text"
+                android:id="@+id/course_name_upload"
+                android:textColorHint="@android:color/white"
+                android:textColor="@android:color/white"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Year"
+                android:textColor="@android:color/white"
+                android:layout_margin="10dp"
+                android:textAppearance="?android:textAppearanceLarge"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:inputType="text"
+                android:id="@+id/course_year_upload"
+                android:textColorHint="@android:color/white"
+                android:textColor="@android:color/white"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subject"
+                android:textColor="@android:color/white"
+                android:layout_margin="10dp"
+                android:textAppearance="?android:textAppearanceLarge"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+
+                android:inputType="text"
+                android:id="@+id/subject_upload"
+                android:textColorHint="@android:color/white"
+                android:textColor="@android:color/white"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Topic"
+                android:textColor="@android:color/white"
+                android:layout_margin="10dp"
+                android:textAppearance="?android:textAppearanceLarge"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+
+                android:inputType="text"
+                android:id="@+id/topic_upload"
+                android:textColorHint="@android:color/white"
+                android:textColor="@android:color/white"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chose File"
+                android:textColor="@android:color/white"
+                android:layout_margin="10dp"
+                android:textAppearance="?android:textAppearanceLarge"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="bottom"
+                android:textColor="@android:color/black"
+                android:background="@color/colorPrimaryDark"
+                android:text="Chose File"
+                android:id="@+id/btn_chose_file_to_upload_assignment"
+                android:textAppearance="?android:textAppearanceLarge"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:id="@+id/path_file_chosen"
+                android:text="path"
+                android:textColor="@android:color/white"
+                android:layout_margin="10dp"
+                android:textAppearance="?android:textAppearanceLarge"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="3"
+            android:layout_height="50dp"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:id="@+id/view_chosen_file"/>
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
